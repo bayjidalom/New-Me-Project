@@ -140,3 +140,45 @@ image-section {}
 .card img {
     margin: 0 auto;
 }
+
+
+/* Watch SEction related styles */
+
+.watch-section {
+    margin-bottom: 120px;
+}
+
+.watch-container {
+    max-width: 1145px;
+    display: flex;
+    justify-content: start;
+    /* border: 1px solid red; */
+    background-image:
+        linear-gradient(rgba(241, 93, 34, 0.267), rgba(241, 93, 34, 0.281)),
+        url("./images/watch.png");
+    margin: 0 auto;
+}
+
+.watch-content {
+    max-width: 460px;
+    padding-top: 59px;
+    padding-bottom: 59px;
+    padding-left: 64px;
+}
+
+.watch-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.watch-content button {
+    padding: 21px 36px;
+    background-color: white;
+    color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
