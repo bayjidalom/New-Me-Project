@@ -182,3 +182,75 @@ image-section {}
     font-size: 20px;
     font-weight: 600;
 }
+
+
+/* Feature section related styles */
+
+
+.feature-section {
+    background-color: #151414;
+    /* background-color: aqua; */
+    padding: 130px 230px;
+
+}
+
+.feature-container {
+    max-width: 1145px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    gap: 331px;
+}
+
+.feature-left {
+    max-width: 485px;
+}
+
+.feature-left h2 {
+    font-size: 45px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.feature-left p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.feature-left img {
+    max-width: 40px;
+    margin-right: 17px;
+}
+
+.feture-right {
+    max-width: 325px;
+}
+
+.feature-right h3 {
+    font-size: 26px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.feature-right input {
+    width: 325px;
+    height: 64px;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    font-size: 20px;
+    padding-left: 5px;
+
+}
+
+.feature-right button {
+    padding: 21px 36px;
+    background-color: white;
+    color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
