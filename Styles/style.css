@@ -15,7 +15,7 @@
     justify-content: end;
     /* background-color: aquamarine; */
     padding: 216px 230px 166px;
-    background: url(./images/banner/banner1.png);
+    background: url(../images/banner/banner1.png);
 }
 
 .banner-container .banner-content {
@@ -152,11 +152,13 @@ image-section {}
     max-width: 1145px;
     display: flex;
     justify-content: start;
-    /* border: 1px solid red; */
     background-image:
         linear-gradient(rgba(241, 93, 34, 0.267), rgba(241, 93, 34, 0.281)),
-        url("./images/watch.png");
+        url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0 auto;
+    border-radius: 16px;
 }
 
 .watch-content {
