@@ -1,0 +1,40 @@
+@media screen and (max-width:576px) {
+
+    /* Banner Related Styles  */
+    body {
+        overflow-x: hidden;
+    }
+
+    .banner-container {
+        background-color: rgba(0, 0, 0, 0.288);
+        max-width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        padding: 21px 21px 27px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        text-align: start;
+        background-blend-mode: multiply;
+    }
+
+
+    .banner-container .banner-content {
+        text-align: left;
+    }
+
+    .banner-content h2 {
+        font-size: 65px;
+        font-weight: 700;
+        margin-bottom: 24px;
+        color: bisque;
+    }
+
+    .banner-content p {
+        font-size: 16px;
+        margin-bottom: 32px;
+        line-height: 26px;
+        color: bisque;
+    }
+
+}

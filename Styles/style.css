@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .font {
     font-family: "Work Sans", sans-serif;
 }
@@ -48,6 +49,12 @@
     color: white;
     font-size: 20px;
     font-weight: 600;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.banner-content button:hover {
+    transform: translateY(-4px) scale(1.03);
 }
 
 /*  */
@@ -255,4 +262,8 @@ image-section {}
     border-radius: 5px;
     font-size: 20px;
     font-weight: 600;
+}
+
+.hide {
+    display: none;
 }
