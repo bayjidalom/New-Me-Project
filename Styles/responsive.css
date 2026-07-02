@@ -14,6 +14,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 100vh;
+        /* min-width: 100vh; */
         text-align: start;
         background-blend-mode: multiply;
     }
@@ -24,7 +25,7 @@
     }
 
     .banner-content h2 {
-        font-size: 65px;
+        font-size: 45px;
         font-weight: 700;
         margin-bottom: 24px;
         color: bisque;
@@ -36,5 +37,62 @@
         line-height: 26px;
         color: bisque;
     }
+
+    /* Image Section */
+
+    image-section {}
+
+
+    .image-main-container {
+        max-width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        margin: 0 auto;
+        padding-top: 55px;
+        padding-bottom: 55px;
+        gap: 87px;
+        align-items: center;
+
+
+    }
+
+    .image img {
+        max-width: 569px;
+        width: 100%;
+    }
+
+    .content {
+        max-width: 416px;
+    }
+
+    .content ul li {
+        list-style-type: none;
+        font-size: 16px;
+        margin-bottom: 16px;
+        line-height: 26px;
+        color: #444343;
+    }
+
+    .content h2 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 24px;
+        color: #151414;
+
+    }
+
+    .content p {
+        font-size: 16px;
+        margin-bottom: 16px;
+        line-height: 26px;
+        color: #444343;
+    }
+
+    .fa-check {
+        color: #16D887;
+    }
+
 
 }

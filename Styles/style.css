@@ -57,9 +57,11 @@
     transform: translateY(-4px) scale(1.03);
 }
 
-/*  */
+/* Image Section */
 
-image-section {}
+image-section {
+    
+}
 
 
 .image-main-container {
