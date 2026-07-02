@@ -110,7 +110,6 @@
         justify-content: center;
         gap: 60px;
         margin: 0 auto;
-        border: 1px solid burlywood;
     }
 
     .card {
@@ -118,7 +117,12 @@
         border-radius: 5px;
         text-align: center;
         margin: 0 auto;
+        transition: transform 0.3s ease-in-out;
 
+    }
+
+    .card:hover {
+        transform: translateY(-6px);
     }
 
     .card img {

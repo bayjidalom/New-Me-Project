@@ -59,9 +59,7 @@
 
 /* Image Section */
 
-image-section {
-    
-}
+image-section {}
 
 
 .image-main-container {
@@ -140,10 +138,13 @@ image-section {
 
 .card {
     max-width: 220px;
-    /* border: 1px solid red; */
     border-radius: 5px;
     text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
 
+.card:hover {
+    transform: translateY(-6px);
 }
 
 .card img {
