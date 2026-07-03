@@ -130,6 +130,41 @@
     }
 
 
+    /* Watch SEction related styles */
+
+    .watch-section {
+        margin-bottom: 70px;
+    }
+
+    .watch-container {
+        min-height: 300px;
+        max-width: 94%;
+        display: flex;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        margin: 0 auto;
+        border-radius: 16px;
+    }
+
+    .watch-content {
+        max-width: 460px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .watch-content h2 {
+        font-size: 37px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 24px;
+    }
+
+    .watch-content button {
+        padding: 18px 28px;
+    }
+
+
 
 
 }
