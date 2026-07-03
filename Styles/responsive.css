@@ -130,38 +130,88 @@
     }
 
 
-    /* Watch SEction related styles */
+
+    /* Watch section */
 
     .watch-section {
-        margin-bottom: 70px;
+        margin-bottom: 60px;
+        padding: 0 16px;
     }
 
     .watch-container {
+        width: 100%;
         min-height: 300px;
-        max-width: 94%;
-        display: flex;
-        justify-content: center;
         background-size: cover;
         background-position: center;
-        margin: 0 auto;
-        border-radius: 16px;
+        border-radius: 12px;
     }
 
     .watch-content {
-        max-width: 460px;
-        padding-top: 20px;
-        padding-bottom: 10px;
+        max-width: 100%;
+        padding: 40px 20px;
     }
 
     .watch-content h2 {
-        font-size: 37px;
-        font-weight: 700;
-        color: white;
-        margin-bottom: 24px;
+        font-size: 34px;
+        line-height: 1.4;
+        margin-bottom: 20px;
     }
 
     .watch-content button {
-        padding: 18px 28px;
+        padding: 16px 28px;
+        font-size: 16px;
+    }
+
+
+
+
+    /* Footer */
+
+    .feature-section {
+        padding: 60px 16px;
+    }
+
+    .feature-container {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .feature-left,
+    .feature-right {
+        max-width: 95%;
+        width: 95%;
+    }
+
+    .feature-left h2 {
+        font-size: 32px;
+    }
+
+    .feature-left p {
+        font-size: 15px;
+    }
+
+    .feature-left img {
+        max-width: 24px;
+        margin-right: 10px;
+    }
+
+    .feature-right h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .feature-right input {
+        width: 95%;
+        height: 56px;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+
+    .feature-right button {
+        width: 95%;
+        padding: 16px;
+        font-size: 18px;
     }
 
 
