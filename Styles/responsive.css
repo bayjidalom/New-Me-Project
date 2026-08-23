@@ -1,11 +1,12 @@
-@media screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
 
-    /* Banner Related Styles  */
+    /* Controls mobile horizontal overflow. */
+
     body {
         overflow-x: hidden;
     }
 
-    /* Mobile banner uses a darker overlay and warm orange accents for stronger contrast. */
+    /* Styles the mobile hero banner. */
 
     .banner-container {
         max-width: 100%;
@@ -41,27 +42,18 @@
         color: rgba(255, 255, 255, 0.88);
     }
 
-
-
-
-    /* Image Section */
-
-    image-section {}
-
+    /* Adapts the image section. */
 
     .image-main-container {
         max-width: 95%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-
         margin: 0 auto;
         padding-top: 55px;
         padding-bottom: 55px;
         gap: 87px;
         align-items: center;
-
-
     }
 
     .image img {
@@ -86,7 +78,6 @@
         font-weight: 700;
         margin-bottom: 24px;
         color: #151414;
-
     }
 
     .content p {
@@ -100,9 +91,7 @@
         color: #16D887;
     }
 
-
-
-    /* Card Section Related Styles */
+    /* Stacks the plan cards vertically. */
 
     .card-section {
         margin: 0 auto;
@@ -124,7 +113,6 @@
         text-align: center;
         margin: 0 auto;
         transition: transform 0.3s ease-in-out;
-
     }
 
     .card:hover {
@@ -135,9 +123,7 @@
         margin: 0 auto;
     }
 
-
-
-    /* Watch section */
+    /* Adjusts the call-to-action section. */
 
     .watch-section {
         margin-bottom: 60px;
@@ -168,10 +154,7 @@
         font-size: 16px;
     }
 
-
-
-
-    /* Footer */
+    /* Refines the mobile footer layout. */
 
     .feature-section {
         padding: 60px 16px;
@@ -219,8 +202,4 @@
         padding: 16px;
         font-size: 18px;
     }
-
-
-
-
 }
