@@ -14,9 +14,11 @@
 .banner-container {
     display: flex;
     justify-content: end;
+    ;
     /* background-color: aquamarine; */
     padding: 216px 230px 166px;
     background: url(../images/banner/banner1.png);
+    min-height: 100vh;
 }
 
 .banner-container .banner-content {

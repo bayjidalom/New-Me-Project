@@ -5,20 +5,21 @@
         overflow-x: hidden;
     }
 
+    /* Mobile banner uses a darker overlay and warm orange accents for stronger contrast. */
+
     .banner-container {
-        background-color: rgba(0, 0, 0, 0.288);
         max-width: 100%;
         justify-content: center;
         flex-direction: column;
         padding: 21px 21px 27px;
+        background-color: rgba(10, 10, 10, 0.52);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         min-height: 100vh;
-        /* min-width: 100vh; */
         text-align: start;
         background-blend-mode: multiply;
     }
-
 
     .banner-container .banner-content {
         text-align: left;
@@ -28,15 +29,20 @@
         font-size: 45px;
         font-weight: 700;
         margin-bottom: 24px;
-        color: bisque;
+        color: #FFFFFF;
+        text-shadow: 0 3px 18px rgba(0, 0, 0, 0.35);
     }
 
     .banner-content p {
+        max-width: 500px;
         font-size: 16px;
         margin-bottom: 32px;
         line-height: 26px;
-        color: bisque;
+        color: rgba(255, 255, 255, 0.88);
     }
+
+
+
 
     /* Image Section */
 
